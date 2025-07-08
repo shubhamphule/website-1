@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "description": "A sleek, responsive portfolio built as a PWA with dark/light mode.",
+    "demo": "#",
+    "code": "#"
+  },
+  {
+    "title": "Task Manager App",
+    "description": "A productivity app to manage daily tasks, built with vanilla JS.",
+    "demo": "#",
+    "code": "#"
+  }
+] 

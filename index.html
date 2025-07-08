@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Shubham Phule - Professional Portfolio. Skills, projects, testimonials, blog, and contact.">
+  <meta property="og:title" content="Shubham Phule - Portfolio">
+  <meta property="og:description" content="Explore the work, skills, and projects of Shubham Phule. Contact for collaboration.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:image" content="icon-512.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+  <title>Shubham Phule - Portfolio</title>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div id="preloader"><div class="loader"></div></div>
+  <nav id="navbar">
+    <div class="nav-brand">Shubham Phule</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#blog" class="nav-link">Blog</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle dark/light mode"></button>
+  </nav>
+  <main>
+    <section id="home" class="section home-section">
+      <h1 class="intro-title"><span id="typed-text"></span><span class="cursor">|</span></h1>
+      <p class="intro-sub">Welcome to my portfolio website.</p>
+    </section>
+    <section id="about" class="section fade-in">
+      <h2>About Me</h2>
+      <p>Hello! I'm Shubham Phule, a passionate developer and problem solver. I love building modern, performant web applications and learning new technologies.</p>
+    </section>
+    <section id="skills" class="section fade-in">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Responsive Design</li>
+        <li>PWA</li>
+      </ul>
+    </section>
+    <section id="projects" class="section fade-in">
+      <h2>Projects</h2>
+      <div id="projects-container"></div>
+    </section>
+    <section id="testimonials" class="section fade-in">
+      <h2>Testimonials</h2>
+      <div class="testimonials-slider" id="testimonials-slider">
+        <!-- Testimonials will be injected here -->
+      </div>
+    </section>
+    <section id="blog" class="section fade-in">
+      <h2>Blog</h2>
+      <div id="blog-posts">
+        <!-- Blog posts will be injected here -->
+      </div>
+    </section>
+    <section id="contact" class="section fade-in">
+      <h2>Contact</h2>
+      <p>Phone: <a href="tel:8468998013">8468998013</a></p>
+      <form id="contact-form" autocomplete="off">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </section>
+  </main>
+  <button id="back-to-top" title="Back to Top">&#8679;</button>
+  <footer>
+    <div class="footer-social">
+      <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn" class="social-icon linkedin"></a>
+      <a href="https://github.com/" target="_blank" aria-label="GitHub" class="social-icon github"></a>
+      <a href="mailto:your@email.com" aria-label="Email" class="social-icon email"></a>
+    </div>
+    <p>&copy; 2024 Shubham Phule. All rights reserved.</p>
+  </footer>
+  <button id="installBtn" style="display:none;">Install App</button>
+</body>
+</html> 
